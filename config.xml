@@ -3,12 +3,12 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://unpaseoporpalma.javieraliaga.es"
-        id        = "es.javieraliaga.unpaseoporpalma"
-        version   = "1.0.1">
+        id        = "com.phonegap.unpaseoporpalma"
+        version   = "2.1.1">
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="es.javieraliaga.unpaseoporpalma"
+          package="com.phonegap.unpaseoporpalma"
           android:versionCode="2"
-          android:versionName="1.1">
+          android:versionName="2.1">
     </manifest>
     <name>Un paseo por Palma del río</name>
 
