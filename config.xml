@@ -7,7 +7,7 @@
         version   = "2.1.1">
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.phonegap.unpaseoporpalma"
-          android:versionCode="2"
+          android:versionCode="12"
           android:versionName="2.1">
     </manifest>
     <name>Un paseo por Palma del río</name>
