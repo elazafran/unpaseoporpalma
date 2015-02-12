@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://unpaseoporpalma.javieraliaga.es"
         id        = "com.phonegap.unpaseoporpalma"
-        version   = "2.1.1">
+        version   = "12">
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.phonegap.unpaseoporpalma"
           android:versionCode="12"
