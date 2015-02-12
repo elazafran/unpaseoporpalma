@@ -8,7 +8,7 @@
     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.phonegap.unpaseoporpalma"
           android:versionCode="12"
-          android:versionName="2.1">
+          android:versionName="12">
     </manifest>
     <name>Un paseo por Palma del río</name>
 
