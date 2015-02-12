@@ -5,7 +5,11 @@
         xmlns:gap = "http://unpaseoporpalma.javieraliaga.es"
         id        = "es.javieraliaga.unpaseoporpalma"
         version   = "1.0.1">
-
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="es.javieraliaga.unpaseoporpalma"
+          android:versionCode="2"
+          android:versionName="1.1">
+    </manifest>
     <name>Un paseo por Palma del río</name>
 
     <description>
