@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://unpaseoporpalma.javieraliaga.es"
         id        = "com.phonegap.unpaseoporpalma"
-        version   = "12">
+        version   = "13">
     
     <name>Un paseo por Palma del río</name>
 
@@ -45,8 +45,7 @@
 
     <!-- Plugins -->
 
-    <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.battery-status" />
+    <!-- Core plugins     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
@@ -61,9 +60,10 @@
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.network-information" />-->
+
+    <gap:plugin name="org.apache.cordova.splashscreen" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
