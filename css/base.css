@@ -32,7 +32,8 @@ header a.home-link, header a.home-link:visited {
     color:#444;
     font-size:0.75rem;
     line-height: 40px;
-    position: relative;
+    position: absolute;
+    right: 0;
 }
 header a.home-link:hover {
     text-decoration: underline;
@@ -203,7 +204,8 @@ footer a:hover {
 }
 .marginbottom20{
     margin-bottom: 10px;
-}.margintop20{
+}
+.margintop20{
     margin-top: 20px;
 }
 .detail_img{
@@ -211,7 +213,7 @@ footer a:hover {
     width: 100%;
 
 }
-@media screen and (max-width: 57em){}
+@media screen and (max-width: 57em){
     .detail_img{
     padding: 20px 0 30px 0;
     }
@@ -297,16 +299,6 @@ footer a:hover {
 
 /* Image reset done */
 
-.paseo a {
-    color: #6fc8e3;
-    text-decoration: none;
-}
-
-.paseo a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
 strong, b {
     padding-top: 10px;
     display: block;
@@ -319,6 +311,21 @@ ul {
     font-weight: 100;
 }
 
+.row:nth-of-type(odd){
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-flex-wrap: row-reverse;
+    -ms-flex-wrap: row-reverse;
+    flex-wrap: row-reverse;
+
+}
 /**** Setting ul font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
@@ -336,24 +343,12 @@ ul {
 }
 #power {
     background:#ee3551;
-     
-    padding: 60px 0 30px 0;
-    position: relative;
-}
+ }
 #power:after {
-    content: ' ';
-    height: 0;
-    position: absolute;
-    width: 0;
 
-    border: 30px solid transparent;
+
     border-top-color: #ee3551;
 
-    top: 100%;
-    left: 50%;
-
-    margin-left: -25px;
-    z-index: 2;
 }
 /* colores distintos */
 #paseo07 {
@@ -466,27 +461,81 @@ ul {
     margin-left: -25px;
     z-index: 2;
 }
-#paseo12 {
-    background:#a66f07;
-     
+
+
+.row{
     padding: 60px 0 30px 0;
     position: relative;
 }
-/*
-#paseo12:after {
+
+.row:after{
     content: ' ';
     height: 0;
     position: absolute;
     width: 0;
 
     border: 30px solid transparent;
-    border-top-color: #a66f07;
-
     top: 100%;
     left: 50%;
 
     margin-left: -25px;
     z-index: 2;
 }
+.row:last-child:after {
+    content: inherit;
+}
 
-*/
+
+#paseo12 {    background:#ee8a08; }
+#paseo12:after {   border-top-color: #ee8a08; }
+
+#paseo13 {             background: #f2b260; }
+#paseo13:after { border-top-color: #f2b260;}
+
+#paseo14 {             background: #f2c17e; }
+#paseo14:after { border-top-color: #f2c17e;}
+
+
+#paseo15 {             background: #b19460; }
+#paseo15 {             background: #0092c7; }
+#paseo15:after { border-top-color: #0092c7;}
+
+#paseo16 {             background: #7cc0de; }
+#paseo16:after { border-top-color: #7cc0de;}
+
+#paseo17 {             background: #b3d9e7; }
+#paseo17:after { border-top-color: #b3d9e7;}
+
+
+#paseo18 {             background: #0098a7; }
+#paseo18:after { border-top-color: #0098a7;}
+
+#paseo19 {             background: #75c9d3; }
+#paseo19:after { border-top-color: #75c9d3;}
+
+#paseo20 {             background: #a2d9de; }
+#paseo20:after { border-top-color: #a2d9de;}
+
+
+#paseo21 {             background: #976426; }
+#paseo21:after { border-top-color: #976426;}
+
+#paseo22 {             background: #b78945; }
+#paseo22:after { border-top-color: #b78945;}
+
+#paseo23 {             background: #caa365; }
+#paseo23:after { border-top-color: #caa365;}
+
+
+#paseo24 {             background: #839b51; }
+#paseo24:after { border-top-color: #839b51;}
+
+#paseo25 {             background: #b0c182; }
+#paseo25:after { border-top-color: #b0c182;}
+
+#paseo26 {             background: #c2cf9d; }
+#paseo26:after { border-top-color: #c2cf9d;}
+
+#paseo27 {             background: #04e27b; }
+#paseo27:after { border-top-color: #04e27b;}
+
