@@ -1,6 +1,9 @@
-body {
+html,body {
     margin:0;
     padding:0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 * {
     box-sizing: border-box;
@@ -311,21 +314,6 @@ ul {
     font-weight: 100;
 }
 
-.row:nth-of-type(odd){
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-    -webkit-flex-wrap: row-reverse;
-    -ms-flex-wrap: row-reverse;
-    flex-wrap: row-reverse;
-
-}
 /**** Setting ul font to resize with viewport ****/
 
 @media screen and (max-width: 62em) {
@@ -483,6 +471,7 @@ ul {
 }
 .row:last-child:after {
     content: inherit;
+    padding-bottom: 0;
 }
 
 
